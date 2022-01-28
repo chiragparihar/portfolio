@@ -32,7 +32,7 @@ export const projects = [
       description:
         "This very website that you are looking at. This is my personal portfolio website to showoff my work and the apps that I have build. Frontend is developed using React and TailwindCSS",
       imagePng: "./portfolioSite.png",
-      imageWeb:"./portfoliosite.webp",
+      imageWeb:"./portfolioSite.webp",
       link: "/",
       
     },
