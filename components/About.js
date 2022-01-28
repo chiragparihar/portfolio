@@ -36,6 +36,8 @@ export default function About() {
             className="object-cover object-center rounded"
             alt="hero"
             src="./coding.svg"
+            width="100%"
+            height="100%"
           />
         </div>
       </div>
