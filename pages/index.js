@@ -8,7 +8,7 @@ import Head from "next/head";
 
 
 const App = () =>{
-  TagManager.initialize(TagManagerArgs)
+  
   return(
     <>
     <Head>
