@@ -9,7 +9,7 @@ export default function handler(req, res) {
         from: 'chiragparihar@cmail.carleton.ca', // Use the email address or domain you verified above
         subject: 'Porfolio contact' + ' From:' + req.body.email + ' Name: '+req.body.name,
         text: req.body.message,
-        html: '<strong>Contact from portfolio</strong>',
+        html: `<strong>Contact from portfolio <p>${req.body.message}</p></strong>`,
       };
    
       sgMail
